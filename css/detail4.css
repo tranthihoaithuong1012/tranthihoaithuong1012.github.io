@@ -1,0 +1,57 @@
+.b92 {
+    border: 1px solid rgb(8, 92, 107);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(136, 4, 4);
+}
+
+label {
+    font-variant: small-caps;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: pink;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: rgb(250, 251, 252);
+    color: black;
+    border: 1px solid gray;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    color: darkred;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(243, 141, 141);
+    border: 1px solid gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(19, 19, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(245, 8, 59);
+    color: white;
+    padding: 10px;
+}

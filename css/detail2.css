@@ -1,0 +1,138 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: pink;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: rgb(250, 251, 252);
+    color: black;
+    border: 1px solid gray;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    color: darkred;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(253, 153, 153);
+    border: 1px solid gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(19, 19, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(235, 172, 186);
+    color: white;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: pink;
+}
+
+.header {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: rgb(250, 251, 252);
+    color: black;
+    border: 1px solid gray;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    color: darkred;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(253, 153, 153);
+    border: 1px solid gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(19, 19, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(235, 172, 186);
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+    border: 2px solid rgb(12, 9, 9);
+    box-shadow: 0 0 15px #101013;
+}
+
+.container>iframe {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
+
+.container>.right {
+    width: 23%;
+    height: 100%;
+    float: left;
+}
+
+.container>.right>a {
+    text-decoration: none;
+    height: 150px;
+}
+
+.container>.right>a>img {
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: rgb(252, 162, 162);
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(48, 48, 49), 0 0 5px rgb(248, 47, 47);
+}

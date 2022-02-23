@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(48, 48, 49), 0 0 5px rgb(248, 47, 47);
+}
+
+.header {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background: rgb(250, 251, 252);
+    color: black;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+    color: darkred;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(243, 151, 167);
+    border: 1px solid gray;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(19, 19, 20);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(247, 192, 192);
+    color: rgb(236, 232, 232);
+    padding: 10px;
+}
+
+.card-new {
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+}
+
+.card-new:hover {
+    background-color: rgb(241, 163, 167);
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:hover {
+    border: 1px solid gray;
+}
+
+#slide {
+    height: 40px;
+    background-color: mintcream;
+}
+
+#slide h2 {
+    line-height: 25px;
+    font-size: 20px;
+    color: rgb(10, 9, 9);
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: rgb(240, 159, 159);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
